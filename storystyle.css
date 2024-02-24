@@ -1,0 +1,187 @@
+/* STORY STYLES */
+body {
+    overflow: hidden;
+    background-color: rgb(103, 175, 246);
+    margin: 0;
+    padding: 0;
+}
+
+.ocean {
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background: rgb(184, 216, 242);
+    transform: scale(1, 3); 
+}
+
+.ocean:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(103, 175, 246);
+    right: -25%;
+    top: 20px;
+}
+
+.ocean:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(151, 202, 245);
+    left: -25%;
+    top: -240px;
+    clip-path: ellipse(100% 15% at -15% 100%);
+}
+
+.rectangle {
+    height: 230px;
+    width: 10000px;
+    background-color: blanchedalmond;
+    position: absolute;
+    bottom: -6px;
+}
+
+.plasticbag {
+    width: 110px;
+    height: 120px;
+    cursor: move;
+    background-image: url(plasticbag.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 300px;
+    right: 855px;
+}
+
+.plasticbottle {
+    width: 100px;
+    height: 99px;
+    cursor: move;
+    background-image: url(plasticbottle.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 400px;
+    right: 600px;
+}
+
+.sixpackrings {
+    width: 100px;
+    height: 92px;
+    cursor: move;
+    background-image: url(sixpackrings.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 500px;
+    right: 1100px;
+}
+
+.straw {
+    width: 100px;
+    height: 120px;
+    cursor: move;
+    background-image: url(straw.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+}
+
+.cigarettes {
+    width: 100px;
+    height: 91px;
+    cursor: move;
+    background-image: url(cigarettes.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 600px;
+    right: 200px;
+}
+
+.apple {
+    width: 100px;
+    height: 130px;
+    cursor: move;
+    background-image: url(apple.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 330px;
+    right: 330px;
+}
+
+.spongebob {
+    width: 367px;
+    height: 412px;
+    background-image: url(spongebob.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 132px;
+    right: 241px;
+}
+
+.patrick {
+    width: 270px;
+    height: 335px;
+    background-image: url(patrick.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 109px;
+    right: 994px;
+}
+
+.squidward {
+    width: 349px;
+    height: 367px;
+    background-image: url(squidward.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 149px;
+    right: 629px;
+}
+
+.blueflower {
+    width: 200px;
+    height: 200px;
+    background-image: url(blueflower.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 600px;
+    right: -33px;
+}
+
+.orangeflower {
+    width: 200px;
+    height: 200px;
+    background-image: url(orangeflower.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 355px;
+    right: 1349px;
+}
+
+.greenflower {
+    width: 200px;
+    height: 224px;
+    background-image: url(greenflower.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 681px;
+    right: 836px;
+}
