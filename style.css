@@ -121,3 +121,14 @@ body {
     bottom: 100px;
     right: 1275px;
 }
+
+.greenflower {
+    width: 200px;
+    height: 224px;
+    background-image: url(greenflower.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 500px;
+    right: 46px;
+}
