@@ -41,7 +41,7 @@ body {
 .towel { 
     width:400px;
     height:300px;
-    background-image:url(towel.png);
+    background-image:url(assets/towel.png);
     background-repeat:no-repeat;
     background-size:cover;
     position: absolute;
@@ -50,27 +50,53 @@ body {
 }
 
 .gametitle { 
-    color: sandybrown;
+    color: rgb(217, 129, 51);
     position: absolute;
     font-size: 65px;
-    bottom: 409px;
-    right: 391px;
+    bottom: 450px;
+    right: 480px;
+}
+
+.ending-blurb {
+    font-weight: 900;
+}
+
+.gametitle-description, .facts { 
+    color: rgb(217, 129, 51);
+    position: absolute;
+    font-size: 20px;
+    bottom: 440px;
+    right: 570px;
 }
 
 .button {
     width: 200px;
     height: 50px;
     color: white;
-    background-color: rgb(122, 193, 193);
     position: absolute;
     bottom: 175px;
     right: 650px;
+    border: none;
+    background: none;
+    font-size: 50px;
+}
+
+.button-clean {
+    width: 200px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    bottom: 165px;
+    right: 660px;
+    border: none;
+    background: none;
+    font-size: 50px;
 }
 
 .sunglasses {
     width: 110px;
     height: 70px;
-    background-image: url(sunglasses.png);
+    background-image: url(assets/sunglasses.png);
     background-repeat:no-repeat;
     background-size:cover;
     position: absolute;
@@ -81,7 +107,7 @@ body {
 .lifebuoy {
     width: 300px;
     height: 300px;
-    background-image: url(lifebuoy.png);
+    background-image: url(assets/lifebuoy.png);
     background-repeat:no-repeat;
     background-size:cover;
     position: absolute;
@@ -92,7 +118,7 @@ body {
 .umbrella {
     width: 400px;
     height: 400px;
-    background-image: url(umbrella.png);
+    background-image: url(assets/umbrella.png);
     background-repeat:no-repeat;
     background-size:cover;
     position: absolute;
@@ -103,7 +129,7 @@ body {
 .shell {
     width: 184px;
     height: 216px;
-    background-image: url(shell.png);
+    background-image: url(assets/shell.png);
     background-repeat:no-repeat;
     background-size:cover;
     position: absolute;
@@ -114,7 +140,7 @@ body {
 .orangeflower {
     width: 300px;
     height: 300px;
-    background-image: url(orangeflower.png);
+    background-image: url(assets/orangeflower.png);
     background-repeat:no-repeat;
     background-size:cover;
     position: absolute;
@@ -125,7 +151,7 @@ body {
 .greenflower {
     width: 200px;
     height: 224px;
-    background-image: url(greenflower.png);
+    background-image: url(assets/greenflower.png);
     background-repeat:no-repeat;
     background-size:cover;
     position: absolute;
