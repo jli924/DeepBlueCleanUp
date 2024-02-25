@@ -10,6 +10,13 @@ through interactive and engaging gameplay.
 Dive into a virtual world where you'll discover the wonders of responsible 
 waste management and become a recycling hero.
 
+## Images
+<img width="546" alt="Screenshot of home page" src="assets/cleanup ss1.png">
+<img width="546" alt="Screenshot of second page" src="assets/cleanup ss2.png">
+<img width="546" alt="Screenshot of third page" src="assets/cleanup ss3.png">
+
+## Video
+
 
 ## Authors
 
